@@ -15,11 +15,14 @@
 2. Navigate to project directory:
 
 cd Bun-Drop-main
+open in Visual Studio Code by writing code .
 
 3. install dependencies
 
+In Visual Studio Code. open the terminal and write:
 npm install
 
+and then:
 npm run dev
 
 open localhost
@@ -27,7 +30,6 @@ open localhost
 4. Set up JSON server
 
 Navigate to project directory:
-
 cd Bun-Drop-main
 
 run:
