@@ -1,0 +1,228 @@
+{
+  "menuItems_list": [
+    {
+      "id": 1,
+      "title": "Mint Delight",
+      "price": 4.99,
+      "description": "Refreshing mint topped with chocolate chips.",
+      "image": "src/assets/dessert 1.png",
+      "category": "Dessert"
+    },
+    {
+      "id": 2,
+      "title": "Chocolate Fantasy",
+      "price": 5.49,
+      "description": "Rich and indulgent chocolate ice cream.",
+      "image": "src/assets/dessert 2.png",
+      "category": "Dessert"
+    },
+    {
+      "id": 3,
+      "title": "Strawberry Bliss",
+      "price": 5.99,
+      "description": "Delightful strawberry ice cream.",
+      "image": "src/assets/dessert 3.png",
+      "category": "Dessert"
+    },
+    {
+      "id": 4,
+      "title": "Vanilla Ice Cream",
+      "price": 4.99,
+      "description": "Classic vanilla ice cream with a smooth, creamy texture.",
+      "image": "src/assets/dessert 4.png",
+      "category": "Dessert"
+    },
+    {
+      "id": 5,
+      "title": "Ranch Classic",
+      "price": 0.99,
+      "description": "Creamy and tangy ranch dressing.",
+      "image": "src/assets/dressing 1.png",
+      "category": "Dressing"
+    },
+    {
+      "id": 6,
+      "title": "Cheddar Cheese",
+      "price": 0.99,
+      "description": "Smooth and savory cheddar cheese dressing.",
+      "image": "src/assets/dressing 2.png",
+      "category": "Dressing"
+    },
+    {
+      "id": 7,
+      "title": "Ketchup",
+      "price": 0.99,
+      "description": "Classic ketchup, perfect for burgers and fries.",
+      "image": "src/assets/dressing 3.png",
+      "category": "Dressing"
+    },
+    {
+      "id": 8,
+      "title": "Blue Cheese",
+      "price": 0.99,
+      "description": "Bold and creamy blue cheese dressing.",
+      "image": "src/assets/dressing 4.png",
+      "category": "Dressing"
+    },
+    {
+      "id": 9,
+      "title": "Water",
+      "price": 1.99,
+      "description": "Refreshing, crisp glass of water with ice.",
+      "image": "src/assets/drink 1.png",
+      "category": "Drink"
+    },
+    {
+      "id": 10,
+      "title": "Coca Cola",
+      "price": 1.99,
+      "description": "Refreshing cola.",
+      "image": "src/assets/drink 2.png",
+      "category": "Drink"
+    },
+    {
+      "id": 11,
+      "title": "Mojito",
+      "price": 2.49,
+      "description": "Zesty mojito with mint and lime.",
+      "image": "src/assets/drink 3.png",
+      "category": "Drink"
+    },
+    {
+      "id": 12,
+      "title": "Long Island Iced Tea",
+      "price": 2.49,
+      "description": "Classic Long Island Iced Tea.",
+      "image": "src/assets/drink 4.png",
+      "category": "Drink"
+    },
+    {
+      "id": 13,
+      "title": "Strawberry Milkshake",
+      "price": 2.99,
+      "description": "Creamy strawberry milkshake.",
+      "image": "src/assets/drink 5.png",
+      "category": "Drink"
+    },
+    {
+      "id": 14,
+      "title": "Chocolate Milkshake",
+      "price": 2.99,
+      "description": "Rich chocolate milkshake.",
+      "image": "src/assets/drink 6.png",
+      "category": "Drink"
+    },
+    {
+      "id": 15,
+      "title": "Oreo Milkshake",
+      "price": 3.99,
+      "description": "Decadent Oreo milkshake.",
+      "image": "src/assets/milkshake-1.png",
+      "category": "Drink"
+    },
+    {
+      "id": 16,
+      "title": "FRiDA KOMBUCHA",
+      "price": 1.99,
+      "description": "Early Bird flavor.",
+      "image": "src/assets/soda-1.png",
+      "category": "Drink"
+    },
+    {
+      "id": 17,
+      "title": "OLIPOP",
+      "price": 1.99,
+      "description": "Sparkling Tonic with strawberry and vanilla.",
+      "image": "src/assets/soda-2.png",
+      "category": "Drink"
+    },
+    {
+      "id": 18,
+      "title": "CALPIS WATER",
+      "price": 1.99,
+      "description": "Water. From Japan!",
+      "image": "src/assets/soda-3.png",
+      "category": "Drink"
+    },
+    {
+      "id": 19,
+      "title": "Coconut Positive Energy",
+      "price": 1.99,
+      "description": "Energy drink with coconut flavor.",
+      "image": "src/assets/soda-4.png",
+      "category": "Drink"
+    },
+    {
+      "id": 20,
+      "title": "Crispy Fries",
+      "price": 2.99,
+      "description": "Crispy golden fries.",
+      "image": "src/assets/fries-1.png",
+      "category": "Sides"
+    },
+    {
+      "id": 21,
+      "title": "Sweet Potato Fries",
+      "price": 3.49,
+      "description": "Golden sweet potato fries.",
+      "image": "src/assets/fries-2.png",
+      "category": "Sides"
+    },
+    {
+      "id": 22,
+      "title": "Onion Rings",
+      "price": 3.49,
+      "description": "Wonderful sweet and crispy onion rings.",
+      "image": "src/assets/sides 4.png",
+      "category": "Sides"
+    },
+    {
+      "id": 23,
+      "title": "The Original",
+      "price": 5.99,
+      "description": "Just a classic cheeseburger.",
+      "image": "src/assets/burger-1.png",
+      "category": "Burger"
+    },
+    {
+      "id": 24,
+      "title": "Blackburger",
+      "price": 6.49,
+      "description": "Black-bun bacon cheeseburger.",
+      "image": "src/assets/burger-2.png",
+      "category": "Burger"
+    },
+    {
+      "id": 25,
+      "title": "Brioche Bun Burger",
+      "price": 6.99,
+      "description": "Double stacked burger with brioche buns.",
+      "image": "src/assets/burger-3.png",
+      "category": "Burger"
+    },
+    {
+      "id": 26,
+      "title": "Sesame Cheese",
+      "price": 7.49,
+      "description": "Sesame cheeseburger.",
+      "image": "src/assets/burger-4.png",
+      "category": "Burger"
+    },
+    {
+      "id": 27,
+      "title": "The Ultimate",
+      "price": 6.99,
+      "description": "Double-stacked cheeseburger.",
+      "image": "src/assets/burger-5.png",
+      "category": "Burger"
+    },
+    {
+      "id": 28,
+      "title": "Mount Burgerest",
+      "price": 7.49,
+      "description": "Our biggest burger.",
+      "image": "src/assets/burger-9.png",
+      "category": "Burger"
+    }
+  ]
+}

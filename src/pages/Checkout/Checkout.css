@@ -1,0 +1,124 @@
+.checkout-wrapper {
+  margin-top: 200px;
+}
+
+.place-order {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  gap: 50px;
+  margin-top: 200px;
+}
+
+.place-order-left {
+  width: 100%;
+  max-width: max(30%, 500px);
+}
+
+.place-order-left input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline-color: #e9476e;
+}
+
+.place-order-left .multi-field {
+  display: flex;
+  gap: 10px;
+}
+
+.payment-method {
+  font-size: 14px;
+}
+
+.place-order-right input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline-color: #e9476e;
+}
+
+.place-order-right {
+  position: relative;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+.radio-custom {
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px; /* Space for custom radio button */
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+.radio-custom input[type="radio"] + .radio-circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.radio-custom input[type="radio"]:checked + .radio-circle {
+  border-color: #e9476e;
+  background: #e9476e;
+}
+
+.radio-custom input[type="radio"]:checked + .radio-circle::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-img {
+  width: 30px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.swish-img {
+  width: 100px;
+  margin-top: 5px;
+}
+
+.title {
+  font-size: larger;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.input-error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.input-error input {
+  border: 1px solid red;
+  background-color: #fdd;
+}

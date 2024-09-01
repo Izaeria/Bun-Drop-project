@@ -1,0 +1,46 @@
+/* Center the confirmation content */
+.confirmation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  margin: 0;
+}
+
+.confirmation h1 {
+  color: #272525;
+  font-weight: 900;
+  font-size: max(4vw, 36px);
+  margin: 0;
+}
+.confirmation h2 {
+  color: #464343;
+  font-size: max(2vw, 16px);
+  margin: 0;
+  margin-top: 20px;
+}
+.confirmation img {
+  margin: 10px 0;
+
+  animation: moveImage 2s infinite; /* Apply the animation */
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translateY(0); /* Start position */
+  }
+  50% {
+    transform: translateY(-20px); /* Move up */
+  }
+  100% {
+    transform: translateY(0); /* End position */
+  }
+}
+
+.delivery-time {
+  color: #e9476e;
+  font-size: max(3vw, 16px);
+  font-weight: 900;
+}
