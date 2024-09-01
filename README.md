@@ -10,7 +10,7 @@
 
 1. Clone the repository:
 
-   git clone https://github.com/Izaeria/Bun-Drop.git
+   git clone https://github.com/Izaeria/Bun-Drop-project.git
 
 2. Navigate to project directory:
 
