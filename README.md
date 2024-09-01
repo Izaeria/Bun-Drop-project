@@ -20,9 +20,20 @@ cd Bun-Drop-main
 
 npm install
 
+npm run dev
+
+open localhost
+
 4. Set up JSON server
 
+Navigate to project directory:
+
+cd Bun-Drop-main
+
+run:
 json-server --watch db.json --port 3000
+
+keep cmd open while website runs 
 
 ## Usage
 
