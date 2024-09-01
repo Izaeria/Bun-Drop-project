@@ -35,13 +35,6 @@ json-server --watch db.json --port 3000
 
 keep cmd open while website runs 
 
-## Usage
-
-To start the development server:
-
-npm start
-
-Visit http://localhost:3000 in your browser.
 
 ## Features
 
