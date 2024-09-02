@@ -1,18 +1,18 @@
 import React, { useState, useContext } from "react";
 import { StoreContext } from "../../context/StoreContext";
 import FoodItem from "../FoodItem/FoodItem";
-import "./FoodDisplay.css"; // Ensure this file includes necessary styles
+import "./FoodDisplay.css";
 
 const FoodDisplay = () => {
   const { menuItems_list } = useContext(StoreContext);
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  // Function to handle category change
+  // Hanterar by av kategori
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
   };
 
-  // Filter menu items based on selected category
+  // Filter beroende på  vald kategori
   const filteredItems = menuItems_list.filter((item) =>
     selectedCategory === "All" ? true : item.category === selectedCategory
   );

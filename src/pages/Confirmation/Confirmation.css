@@ -24,18 +24,18 @@
 .confirmation img {
   margin: 10px 0;
 
-  animation: moveImage 2s infinite; /* Apply the animation */
+  animation: moveImage 2s infinite; 
 }
 
 @keyframes moveImage {
   0% {
-    transform: translateY(0); /* Start position */
+    transform: translateY(0); 
   }
   50% {
-    transform: translateY(-20px); /* Move up */
+    transform: translateY(-20px); 
   }
   100% {
-    transform: translateY(0); /* End position */
+    transform: translateY(0); /
   }
 }
 

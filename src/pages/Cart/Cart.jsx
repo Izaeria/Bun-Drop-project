@@ -32,7 +32,7 @@ const Cart = () => {
                   <p>${item.price}</p>
                   <p>{cartItems[item.id]}</p>
                   <p>${item.price * cartItems[item.id]}</p>
-                  {/* Removes one item at a time */}
+
                   <img
                     onClick={() => removeFromCart(item.id)}
                     className="trash-icon"
@@ -44,7 +44,7 @@ const Cart = () => {
               </div>
             );
           }
-          return null; // Ensure you return null if the condition is not met
+          return null;
         })}
       </div>
       <div className="cart-bottom">

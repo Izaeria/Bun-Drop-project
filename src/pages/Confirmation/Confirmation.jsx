@@ -2,13 +2,13 @@ import React from "react";
 import "./Confirmation.css";
 import { assets } from "../../assets/assets";
 
-// Function to get a random delivery time within a max of 1.5 hours
+//Få en random delivery time med maximal 1.5 timmar
 const getRandomDeliveryTime = () => {
-  const maxMinutes = 90; // Maximum delivery time in minutes (1.5 hours)
-  return Math.floor(Math.random() * maxMinutes); // Random number between 0 and maxMinutes
+  const maxMinutes = 90;
+  return Math.floor(Math.random() * maxMinutes);
 };
 
-// Function to format delivery time (in hours and minutes)
+//Formaterar delivery time i timmar och minuter
 const getFormattedDeliveryTime = (minutesUntilDelivery) => {
   const hours = Math.floor(minutesUntilDelivery / 60);
   const minutes = minutesUntilDelivery % 60;
@@ -16,7 +16,7 @@ const getFormattedDeliveryTime = (minutesUntilDelivery) => {
 };
 
 const Confirmation = () => {
-  const randomMinutesUntilDelivery = getRandomDeliveryTime(); // Get random delivery time
+  const randomMinutesUntilDelivery = getRandomDeliveryTime();
   const deliveryTime = getFormattedDeliveryTime(randomMinutesUntilDelivery);
 
   return (

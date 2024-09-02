@@ -59,7 +59,7 @@ const StoreContextProvider = (props) => {
     addToCart,
     removeFromCart,
     getTotalCartAmount,
-    getTotalCartPrice, // Ensure this line is included
+    getTotalCartPrice,
     getCart,
   };
 
