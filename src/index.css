@@ -34,15 +34,15 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 1px; /
+  width: 1px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #d8ccc4; 
-  border-radius: 10px; 
+  background: #d8ccc4;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d4c6bd; 
-  border-radius: 10px; 
+  background: #d4c6bd;
+  border-radius: 10px;
 }
