@@ -10,27 +10,33 @@
 
 1. Clone the repository:
 
-   git clone https://github.com/Izaeria/Bun-Drop.git
+   git clone https://github.com/Izaeria/Bun-Drop-project.git
 
 2. Navigate to project directory:
 
 cd Bun-Drop-main
+open in Visual Studio Code by writing code .
 
 3. install dependencies
 
+In Visual Studio Code. open the terminal and write:
 npm install
+
+and then:
+npm run dev
+
+open localhost
 
 4. Set up JSON server
 
+Navigate to project directory:
+cd Bun-Drop-main
+
+run:
 json-server --watch db.json --port 3000
 
-## Usage
+keep cmd open while website runs 
 
-To start the development server:
-
-npm start
-
-Visit http://localhost:3000 in your browser.
 
 ## Features
 
