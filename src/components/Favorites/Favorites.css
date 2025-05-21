@@ -1,0 +1,78 @@
+.favorites-menu {
+  text-align: center;
+}
+
+.favorites-menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.favorites-menu-list-item {
+  position: relative;
+  border-radius: 10%;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 290px;
+  max-height: auto;
+  margin: 10px auto;
+  background-color: #e4ded3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.favorites-menu-list-item:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.menu-image {
+  width: 100%;
+  height: auto;
+}
+
+.item-menu-name {
+  font-family: roboto;
+  font-size: max(1vw, 16px);
+  font-weight: 400;
+  padding: 5px 10px 10px 10px;
+  padding-bottom: 20px;
+}
+
+.item-menu-price {
+  color: #e9476e;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  font-family: Roboto;
+  font-size: max(1.6vw, 18px);
+  font-weight: 800;
+}
+
+.menu-bottom {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.menu-button button {
+  position: relative;
+  border: none;
+  color: #f6f4ec;
+  font-weight: 1000;
+  font-size: max(1.2vw, 14px);
+  padding: 1.1vw 3.5vw;
+  background-color: #e9476e;
+  font-family: Roboto;
+  border-radius: 50px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  transition: background-color 1 ease;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-button button:hover {
+  background-color: #313a32;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}

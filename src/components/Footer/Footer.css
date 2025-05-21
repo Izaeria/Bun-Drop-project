@@ -1,0 +1,83 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #1f8187;
+  padding: 20px;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content li {
+  text-align: left;
+}
+
+.footer-menu {
+  display: flex;
+  list-style: none;
+  position: relative;
+  justify-content: center;
+  gap: 150px;
+  color: #f6f4ec;
+  font-size: max(0.5vw, 24px);
+  font-weight: 500;
+}
+
+.footer-menu p {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.footer-payment-icons {
+  display: flex;
+  list-style: none;
+  position: relative;
+  gap: 20px;
+}
+
+.mastercard-icon {
+  max-width: 30px; /* Set maximum width */
+  max-height: 40px; /* Set maximum height */
+  width: auto;
+  height: auto;
+}
+
+.visa-icon {
+  max-width: 50px; /* Set maximum width */
+  max-height: 40px; /* Set maximum height */
+  width: auto;
+  height: auto;
+}
+
+.swish-icon {
+  max-width: 70px; /* Set maximum width */
+  max-height: 40px; /* Set maximum height */
+  width: auto;
+  height: auto;
+}
+
+.instagram-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.facebook-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.twitter-icon {
+  width: 35px;
+  height: 35px;
+}
