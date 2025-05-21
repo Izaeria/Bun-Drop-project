@@ -223,14 +223,6 @@
       "description": "Our biggest burger.",
       "image": "src/assets/burger-9.png",
       "category": "Burger"
-    },
-    {
-      "id": 2,
-      "title": "Chocolate Fantasy",
-      "price": 5.49,
-      "description": "Rich and indulgent chocolate ice cream.",
-      "image": "src/assets/dessert 2.png",
-      "category": "Dessert"
     }
   ]
 }
